@@ -1,0 +1,127 @@
+<!-- EDnotSheran :. Cofrinho - Template -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cofrinho</title>
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+       * {
+           margin: 0;
+           padding: 0;
+           user-select: none;
+           box-sizing: border-box;
+           font-size: 'Poppins', sans-serif;
+       }
+       .sidebar {
+           position: fixed;
+           width: 250px;
+           height: 100%;
+           left: 0;
+           background: #1b1b1b;
+       }
+       .sidebar .text {
+            color: white;
+            font-size: 25px;
+            font-weight: 600;
+            line-height: 65px;
+            text-align: center;
+            background: #1e1e1e;
+            letter-spacing: 1px;
+       }
+       nav ul {
+           background: #1b1b1b;
+           height: 100%;
+           width: 100%;
+           list-style: none;
+       }
+       nav ul li {
+           line-height: 60px;
+           border-bottom: 1px solid rgba(255,255,255,.1);
+       }
+       nav ul li a {
+           position: relative;
+           color: white;
+           text-decoration: none;
+           font-size: 18px;
+           padding-left: 18px;
+           padding-left: 40px;
+           font-weight: 500;
+           display: block;
+           width: 100%;
+           border-left: 3px solid transparent;
+       }
+       nav ul li a svg {
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+            width: 12px;
+            height: 12px;
+            fill: white;
+            transition: transform 0.4s;
+       }
+       nav ul li a:hover {
+           color: cyan;
+           background: #1e1e1e;
+           border-left-color: cyan;
+       }
+       nav ul li a:hover svg {
+            fill: cyan;
+            transform: translateY(-50%) rotate(-180deg);
+       }
+       nav ul ul {
+           position: static;
+           display: none;
+       }
+       nav ul ul li {
+            line-height: 42px;
+            border-bottom: none;
+       }
+       nav ul ul li a {
+            font-size: 17px;
+            color: #e6e6e6;
+            padding-left: 80px;
+       }
+    </style>
+</head>
+<body>
+    <nav class="sidebar">
+        <div class="text">Side Menu</div>
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li>
+                <a href="#" class="feat-btn">
+                    Features
+                    <svg class="first" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="292.362px" height="292.362px" viewBox="0 0 292.362 292.362" style="enable-background:new 0 0 292.362 292.362;"xml:space="preserve"><g><path d="M286.935,69.377c-3.614-3.617-7.898-5.424-12.848-5.424H18.274c-4.952,0-9.233,1.807-12.85,5.424C1.807,72.998,0,77.279,0,82.228c0,4.948,1.807,9.229,5.424,12.847l127.907,127.907c3.621,3.617,7.902,5.428,12.85,5.428s9.233-1.811,12.847-5.428L286.935,95.074c3.613-3.617,5.427-7.898,5.427-12.847C292.362,77.279,290.548,72.998,286.935,69.377z"/></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                </a>
+                <ul>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Elements</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="serv-btn">
+                    Services
+                    <svg class="second" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="292.362px" height="292.362px" viewBox="0 0 292.362 292.362" style="enable-background:new 0 0 292.362 292.362;"xml:space="preserve"><g><path d="M286.935,69.377c-3.614-3.617-7.898-5.424-12.848-5.424H18.274c-4.952,0-9.233,1.807-12.85,5.424C1.807,72.998,0,77.279,0,82.228c0,4.948,1.807,9.229,5.424,12.847l127.907,127.907c3.621,3.617,7.902,5.428,12.85,5.428s9.233-1.811,12.847-5.428L286.935,95.074c3.613-3.617,5.427-7.898,5.427-12.847C292.362,77.279,290.548,72.998,286.935,69.377z"/></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                </a>
+                <ul>
+                    <li><a href="#">App Design</a></li>
+                    <li><a href="#">Web Design</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Portifolio</a></li>
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Shotcuts</a></li>
+            <li><a href="#">Feedbacks</a></li>
+        </ul>
+    </nav>
+
+    <script>
+        document.querySelector('.feat-btn').addEventListener('click',()=>{
+            
+        })
+    </script>
+</body>
+</html>
