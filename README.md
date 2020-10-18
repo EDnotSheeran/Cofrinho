@@ -2,5 +2,5 @@
 Aplicação de controle e gerenciamento de gastos e renda.
 
 ### Descrição
-Controle seus gastos e sua renda atravs desse aplicativo, saiba quanto dinheiro você gastou esse mês
+Controle seus gastos e sua renda através desse aplicativo, saiba quanto dinheiro você gastou esse mês
 e quanto ganhou. Classifique seus gastos por categoria e tenha um controle maior do seu dinheiro.
